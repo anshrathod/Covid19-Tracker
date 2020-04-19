@@ -1,0 +1,112 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title style="text-align:center;font-size:165%;">Covid-19 Tracker</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button color="dark" (click)="share()">
+            <ion-icon name="share-social-outline" fill="clear"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+        <ion-fab-button color="dark" (click)="call()">
+            <ion-icon name="call-outline" fill="clear"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed" style="margin-bottom:20%;">
+        <ion-fab-button color="dark" (click)="news()">
+            <ion-icon name="newspaper-outline" fill="clear"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="margin-bottom:20%;">
+        <ion-fab-button color="dark" (click)="info()">
+            <ion-icon name="information-outline" fill="clear"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <ion-grid style="margin-top:5%;">
+        <ion-row>
+            <ion-col size="12">
+                <p class="text textcenter">TOTAL CASES - INDIA</p>
+            </ion-col>
+            <ion-col size="12">
+                <p class="maintext textcenter" style="color:#3880ff">{{ indiaCases }}</p>
+            </ion-col>
+            <ion-col size="12">
+                <ion-row>
+                    <ion-col size="8">
+                        <ion-row>
+                            <ion-icon name="bandage-outline" color="warning" style="margin-right: 20%;"></ion-icon>
+                            <p class="textleft2">
+                                Active Cases:
+                            </p>
+                        </ion-row>
+                    </ion-col>
+                    <ion-col size="4">
+                        <p class="warning textright text" color="warning">{{ indiaActive }}</p>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col size="12">
+                <ion-row>
+                    <ion-col size="8">
+                        <ion-row>
+                            <ion-icon name="caret-forward-circle-outline" color="success" style="margin-right: 20%;"></ion-icon>
+                            <p class="textleft2">Recovered Cases:</p>
+                        </ion-row>
+                    </ion-col>
+                    <ion-col size="4">
+                        <p class="success textright text">{{ indiaRecover }}</p>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col size="12">
+                <ion-row>
+                    <ion-col size="8">
+                        <ion-row>
+                            <ion-icon name="warning-outline" color="danger" style="margin-right: 20%;"></ion-icon>
+                            <p class="textleft2">Fatal Cases:</p>
+                        </ion-row>
+                    </ion-col>
+                    <ion-col size="4">
+                        <p class="danger textright text">{{ indiaDeaths }}</p>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col size="3"></ion-col>
+            <ion-col>
+                <p style="font-size:75%;color: gray;">
+                    Last Updated : {{ lastUpdated }}
+                </p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <hr>
+    <p style="color:darkslategray;font-size:150%;text-align:center;margin:5%">Indian States</p>
+    <ion-card *ngFor="let i of indiaStates ">
+        <ion-card-header color="primary">
+            <ion-card-title (click)="showState(i.stateid)">
+                <ion-row>
+                    <ion-col size="9">
+                        <p class="textleft" style="font-size:80% ;">{{ i.stateName }}</p>
+                    </ion-col>
+                    <p style="align-items: flex-end;">{{ i.total_cases }}</p>
+                </ion-row>
+            </ion-card-title>
+        </ion-card-header>
+        <ion-card-content id="{{i.stateid}}" style="display: none;">
+            <ion-item>
+                <p class="textleft">Active Cases:</p>
+                <p class="textright" color="warning">{{ i.total_cases - i.total_deaths - i.total_recov }}</p>
+            </ion-item>
+            <ion-item>
+                <p class="textleft">Recovered Cases:</p>
+                <p class="textright">{{ i.total_recov }}</p>
+            </ion-item>
+            <ion-item lines="none">
+                <p class="textleft">Fatal Cases:</p>
+                <p class="textright">{{ i.total_deaths }}</p>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

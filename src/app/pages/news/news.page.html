@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title style="text-align:center;font-size:165%;">News</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let i of newsdata">
+        <img src="{{ i.news_img }}" class="img" />
+        <ion-card-header color="primary">
+            <ion-card-title (click)="showNews(i.news_link)">{{ i.news_header }}</ion-card-title>
+        </ion-card-header>
+    </ion-card>
+</ion-content>

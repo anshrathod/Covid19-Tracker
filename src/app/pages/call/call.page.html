@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title style="text-align:center;font-size:165%;">Call</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let i of numbers">
+        <ion-card-header color="primary">
+            {{ i.statename }}
+        </ion-card-header>
+        <ion-card-content>
+            <ion-row *ngFor="let j of i.number">
+                <a href="tel:{{j}}" class="number">{{j}}</a>
+            </ion-row>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

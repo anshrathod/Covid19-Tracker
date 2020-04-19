@@ -1,0 +1,7 @@
+{
+  "name": "Covid India",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

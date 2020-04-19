@@ -1,0 +1,76 @@
+.danger {
+  color: red;
+}
+
+.warning {
+  color: yellow;
+}
+
+.success {
+  color: green;
+}
+
+.text {
+  color: grey;
+  text-align: right;
+  font-size: 125%;
+  margin-top: 0%;
+}
+
+.textright {
+  position: absolute;
+  right: 5%;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textleft {
+  text-align: left;
+  width: 80%;
+}
+
+.textleft2 {
+  text-align: left;
+}
+
+.maintext {
+  font-size: 250%;
+}
+
+ion-row {
+  margin-top: 0%;
+}
+
+p {
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+}
+
+ion-col {
+  font-size: 100%;
+}
+
+ion-icon {
+  font-size: 150%;
+}
+
+hr {
+  border: 0.01rem solid black !important;
+  // height: 1% !important;
+  width: 94% !important;
+  // background: blue !important;
+  // display: block !important;
+  font-size: 2em !important;
+  opacity: 0.5 !important;
+  visibility: visible !important;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+// .card {
+//   width: 125%;
+//   position: fixed;
+//   left: 50%;
+// }
