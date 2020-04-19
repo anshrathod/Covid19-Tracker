@@ -68,8 +68,7 @@ To run the app follow the steps:
     ```sh
     cp  ./jquery.min.js ./node_modules/@types/jquery/dist/
     ```
-<br>
-    
+
 5. Run the app on a browser
 
     ```shell
