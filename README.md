@@ -76,7 +76,6 @@ To run the app follow the steps:
     ```
 
 6. Open localhost in your browser @http://localhost:8000
-<br>
 
 7. Build the app
 
