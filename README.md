@@ -1,6 +1,9 @@
-# Covid19 Tracker
-[![](https://img.shields.io/badge/made%20with-IONIC-blue)](https://ionicframework.com/) [![](https://img.shields.io/badge/made%20using-Angular-red)](https://angular.io/) [![](https://img.shields.io/badge/made%20with-Flask-blue)](https://flask.palletsprojects.com/en/1.1.x/)
-Stay Safe Stay Home
+<div align="center">
+
+# Covid19-Tracker
+
+[![](https://img.shields.io/badge/MADE%20WITH-IONIC-blue?style=for-the-badge&logo=ionic&labelColor=000000&color=3880FF)](https://ionicframework.com/) [![](https://img.shields.io/badge/BUILT%20FOR-ANDROID-blue?style=for-the-badge&logo=android&labelColor=000000&color=3DDC84&logoColor=3DDC84)](https://flask.palletsprojects.com/en/1.1.x/) [![](https://img.shields.io/badge/MADE%20USING-FLASK-blue?style=for-the-badge&logo=flask&labelColor=000000&color=blue&logoColor=ffffff)](https://flask.palletsprojects.com/en/1.1.x/) [![](https://img.shields.io/badge/MADE%20USING-ANGULARJS-blue?style=for-the-badge&logo=angularjs&labelColor=000000&color=E23237&logoColor=E23237)](https://angular.io/)  [![](https://img.shields.io/badge/IDE-VISUAL%20STUDIO%20CODE-blue?style=for-the-badge&logo=visual-studio-code&labelColor=000000&color=007ACC&logoColor=ffffff)](https://code.visualstudio.com/)
+</div>
 
 ----
 Track the latest Corona ( Covid-19 ) Virus numbers across the India.
@@ -40,32 +43,49 @@ To run the app follow the steps:
 
 1. Clone the repository
 
-```shell
- $ git clone 
- $ cd 
-```
+    ```shell
+    git clone https://github.com/anshrathod/Covid19-Tracker.git
+    ```
 
 2. Install ionic and cordova
 
-```shell
-```
+    ```shell
+    npm install -g ionic cordova
+    ```
+4. Install the Dependencies
 
-3. Install the dependencies
+    ```sh
+    cd Covid19-Tracker
+    npm install
+    ```
+5. Copy the `./jquery.min.js` file to `node_module/@types/jquery/dist/`
+<br>
+    For Windows
+    ```c
+    copy  .\jquery.min.js .\node_modules\@types\jquery\dist\
+    ```
+    For Linux
+    ```sh
+    cp  ./jquery.min.js ./node_modules/@types/jquery/dist/
+    ```
+<br>
+    
+5. Run the app on a browser
 
-```shell
-```
+    ```shell
+    ionic serve --host=localhost --port=8000
+    ```
 
-4. Run the app on a browser
+6. Open localhost in your browser @http://localhost:8000
+<br>
 
-```shell
-```
+7. Build the app
 
-5. Open localhost in your browser.
+    ```shell
+    ionic cordova build android
+    ```
 
-6. Build the app
-```shell
-```
-
+8. You will the .apk file in the directory `/platforms/android/app/build/outputs/apk/debug`
 ---
 
 ### To-dos
@@ -74,6 +94,14 @@ To run the app follow the steps:
  - [ ] Add Districts for all the states of India.
  - [ ] Improve UI by adding graphs and stuff.
 
+<div align="center">
 
 ### License
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![forthebadge](https://forthebadge.com/images/badges/certified-snoop-lion.svg)](#) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](#)
+[![](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge&labelColor=099c77&color=335163)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/CERTIFIED%20BY-SNOOP%20LION-blue?style=for-the-badge&&labelColor=050505&color=b31755&logoColor=ffffff)](#) 
+
+
+---
+
+[![](https://img.shields.io/badge/MADE%20BY%20ANSH-WITH%20LOVE-blue?style=for-the-badge&labelColor=43de43&color=244224)](#) [![](https://img.shields.io/badge/STAY%20HOME-STAY%20SAFE-blue?style=for-the-badge&labelColor=64c&color=317)](#)
+
+</div>
