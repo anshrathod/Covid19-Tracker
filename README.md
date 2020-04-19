@@ -5,7 +5,6 @@
 [![](https://img.shields.io/badge/MADE%20WITH-IONIC-blue?style=for-the-badge&logo=ionic&labelColor=000000&color=3880FF)](https://ionicframework.com/) [![](https://img.shields.io/badge/BUILT%20FOR-ANDROID-blue?style=for-the-badge&logo=android&labelColor=000000&color=3DDC84&logoColor=3DDC84)](https://flask.palletsprojects.com/en/1.1.x/) [![](https://img.shields.io/badge/MADE%20USING-FLASK-blue?style=for-the-badge&logo=flask&labelColor=000000&color=blue&logoColor=ffffff)](https://flask.palletsprojects.com/en/1.1.x/) [![](https://img.shields.io/badge/MADE%20USING-ANGULARJS-blue?style=for-the-badge&logo=angularjs&labelColor=000000&color=E23237&logoColor=E23237)](https://angular.io/)  [![](https://img.shields.io/badge/IDE-VISUAL%20STUDIO%20CODE-blue?style=for-the-badge&logo=visual-studio-code&labelColor=000000&color=007ACC&logoColor=ffffff)](https://code.visualstudio.com/)
 </div>
 
-----
 Track the latest Corona ( Covid-19 ) Virus numbers across the India.
 In this app, you will get the latest stats on the number of corona virus cases in India.
 Cases of Corona Virus in India are further segregated according to the Indian States.
@@ -17,9 +16,8 @@ Cases of Corona Virus in India are further segregated according to the Indian St
 
 Download the app [here](https://bit.ly/coronavirus106)
 
-----
+## Tech
 
-### Tech
 Covid19 Tracker uses a number of open source projects to work properly:
 
 | Framework/Tech	| Decription |
@@ -30,9 +28,7 @@ Covid19 Tracker uses a number of open source projects to work properly:
 | **[jQuery](https://jquery.com/)** 	| *duh*	|
 | **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** 	| *Python API for scraping.*	|
 
-----
-
-### Installation
+## Installation
 
 ```python
 if you_want_see_what_the_app_looks_like:
@@ -88,9 +84,8 @@ To run the app follow the steps:
     ```
 
 8. You will the .apk file in the directory `/platforms/android/app/build/outputs/apk/debug`
----
 
-### To-dos
+## To-dos
 
  - [ ]  Add World-Section in the app.
  - [ ] Add Districts for all the states of India.
@@ -98,11 +93,12 @@ To run the app follow the steps:
 
 <div align="center">
 
-### License
+## License
+
 [![](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge&labelColor=099c77&color=335163)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/CERTIFIED%20BY-SNOOP%20LION-blue?style=for-the-badge&&labelColor=050505&color=b31755&logoColor=ffffff)](#) 
 
 
----
+-----
 
 [![](https://img.shields.io/badge/MADE%20BY%20ANSH-WITH%20LOVE-blue?style=for-the-badge&labelColor=64c486&color=244224)](#) [![](https://img.shields.io/badge/STAY%20HOME-STAY%20SAFE-blue?style=for-the-badge&labelColor=64c&color=317)](#)
 
