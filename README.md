@@ -15,17 +15,21 @@ Cases of Corona Virus in India are further segregated according to the Indian St
 - [x] In-App Calling facility
 - [x] Information About Corona Virus
 
-Download the app [here](https://bit.ly/coronatracker106)
+Download the app [here](https://bit.ly/coronavirus106)
 
 ----
 
 ### Tech
 Covid19 Tracker uses a number of open source projects to work properly:
-> [Ionic](https://ionicframework.com/) -  HTML5 SDK that helps you build native-feeling mobile apps
-[AngularJS](https://angular.io/) - HTML enhanced for web apps!
-[node.js](https://nodejs.org/en/) - Evented I/O for the backend
-[jQuery](https://jquery.com/) - duh
-[Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python API for scraping.
+
+| Framework/Tech	| Decription |
+|------------------------------------------------------	|-----------------------------------------------------------	|
+| **[Ionic](https://ionicframework.com/)** 	| *HTML5 SDK that helps you build native-feeling mobile apps*	|
+| **[AngularJS](https://angular.io/)** 	| *HTML enhanced for web apps!*	|
+| **[node.js](https://nodejs.org/en/)** 	| *Evented I/O for the backend*	|
+| **[jQuery](https://jquery.com/)** 	| *duh*	|
+| **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** 	| *Python API for scraping.*	|
+
 ----
 
 ### Installation
