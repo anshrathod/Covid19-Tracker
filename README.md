@@ -59,12 +59,12 @@ To run the app follow the steps:
     npm install
     ```
 5. Copy the `./jquery.min.js` file to `node_module/@types/jquery/dist/`
-<br>
+    
     For Windows
-    ```c
+    ```sh
     copy  .\jquery.min.js .\node_modules\@types\jquery\dist\
     ```
-    For Linux
+    For Linux 
     ```sh
     cp  ./jquery.min.js ./node_modules/@types/jquery/dist/
     ```
