@@ -104,6 +104,6 @@ To run the app follow the steps:
 
 ---
 
-[![](https://img.shields.io/badge/MADE%20BY%20ANSH-WITH%20LOVE-blue?style=for-the-badge&labelColor=43de43&color=244224)](#) [![](https://img.shields.io/badge/STAY%20HOME-STAY%20SAFE-blue?style=for-the-badge&labelColor=64c&color=317)](#)
+[![](https://img.shields.io/badge/MADE%20BY%20ANSH-WITH%20LOVE-blue?style=for-the-badge&labelColor=64c486&color=244224)](#) [![](https://img.shields.io/badge/STAY%20HOME-STAY%20SAFE-blue?style=for-the-badge&labelColor=64c&color=317)](#)
 
 </div>
